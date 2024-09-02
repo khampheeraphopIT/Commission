@@ -42,6 +42,8 @@ const Refactor = () => {
         } else if (sales > 1000.0) {
             commission = 0.10 * 1000.0;
             commission += 0.15 * (sales - 1000.0);
+        } else {
+            commission = 0.10 * sales;
         }
         setCommission(commission);
     };
