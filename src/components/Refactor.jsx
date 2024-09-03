@@ -57,7 +57,7 @@ const Refactor = () => {
                         <label>
                             Locks:
                             <input
-                                type="text"
+                                type="number"
                                 value={locks || ''}
                                 onChange={(e) => setLocks(+e.target.value)}
                                 placeholder="Enter number of Locks"
@@ -68,7 +68,7 @@ const Refactor = () => {
                         <label>
                             Stocks:
                             <input
-                                type="text"
+                                type="number"
                                 value={stocks || ''}
                                 onChange={(e) => setStocks(+e.target.value)}
                                 placeholder="Enter number of Stocks"
@@ -79,7 +79,7 @@ const Refactor = () => {
                         <label>
                             Barrels:
                             <input
-                                type="text"
+                                type="number"
                                 value={barrels || ''}
                                 onChange={(e) => setBarrels(+e.target.value)}
                                 placeholder="Enter number of Barrels"
